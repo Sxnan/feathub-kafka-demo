@@ -64,8 +64,11 @@ Example of an output:
 
 ## Step
 
-1. Follow [readme](https://github.com/alibaba/feathub#install-feathub) of Feathub to
-   install Feathub.
+1. Install Feathub
+   ```bash
+   # Install nightly build of Feathub
+   $ pip install feathub-nightly
+   ```
 2. Download Flink 1.15.2
     ```bash
     $ curl -LO https://archive.apache.org/dist/flink/flink-1.15.2/flink-1.15.2-bin-scala_2.12.tgz
